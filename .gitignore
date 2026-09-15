@@ -11,3 +11,5 @@ images which is taken by client kind of assets/
 Thumbs.db
 *.log
 .tempmediaStorage/
+scripts/
+
