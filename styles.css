@@ -2705,6 +2705,107 @@ select.form-control option {
   backdrop-filter: blur(8px);
 }
 
+.champions-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+@media (max-width: 960px) {
+  .champions-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.champions-item-card {
+  background: rgba(12, 17, 29, 0.85);
+  border: 1px solid rgba(255, 184, 0, 0.28);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.champions-item-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 184, 0, 0.65);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.65), 0 0 24px rgba(255, 184, 0, 0.2);
+}
+
+.champions-item-frame {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 230px;
+}
+
+.champions-item-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.champions-item-card:hover .champions-item-frame img {
+  transform: scale(1.05);
+}
+
+.champions-item-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(7, 9, 13, 0.92);
+  border: 1px solid #FFB800;
+  color: #FFB800;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  backdrop-filter: blur(8px);
+  z-index: 2;
+}
+
+.champions-item-body {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.champions-item-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-light);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.champions-item-subtitle {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #FFB800;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.champions-item-desc {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.55;
+  margin-top: auto;
+}
+
 /* ==========================================================================
    PRICING BILLING CYCLE TOGGLE & ACCURATE TIERS
    ========================================================================== */

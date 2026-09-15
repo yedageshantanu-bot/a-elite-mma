@@ -415,7 +415,9 @@ function initGalleryFilterAndLightbox() {
       const cat = btn.getAttribute('data-filter');
 
       items.forEach(item => {
-        if (cat === 'all' || item.getAttribute('data-category') === cat) {
+        const catAttr = item.getAttribute('data-category') || '';
+        const catList = catAttr.split(' ');
+        if (cat === 'all' || catList.includes(cat) || catAttr === cat) {
           item.style.display = 'block';
         } else {
           item.style.display = 'none';
