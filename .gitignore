@@ -1,0 +1,13 @@
+# Environment & Dependencies
+node_modules/
+.wrangler/
+.agents/
+
+# Raw client upload folder (cleanly organized in assets/client/)
+images which is taken by client kind of assets/
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.log
+.tempmediaStorage/

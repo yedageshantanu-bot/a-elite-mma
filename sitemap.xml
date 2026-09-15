@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://a-elite-mma.vercel.app/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://a-elite-mma.vercel.app/assets/client/logo-crest.jpg</image:loc>
+      <image:title>A Elite MMA &amp; Fitness Club Official Crest</image:title>
+      <image:caption>A Elite MMA and Fitness Club Logo Malkapur Karad</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://a-elite-mma.vercel.app/assets/client/gym-facility-wide.jpg</image:loc>
+      <image:title>A Elite MMA Malkapur Facility Arena</image:title>
+      <image:caption>Complete Combat Mats, Cable Crossover and Open Gym</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://a-elite-mma.vercel.app/assets/client/warriors-champions.jpg</image:loc>
+      <image:title>Warriors Dream Series Podium Champions</image:title>
+      <image:caption>Tournament Gold Medalists and Certified Athletes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://a-elite-mma.vercel.app/assets/client/fees-structure-poster.jpg</image:loc>
+      <image:title>Official Fees Structure Poster A Elite MMA</image:title>
+      <image:caption>Pro Batch, Female Batch and Kids Batch Fees</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://a-elite-mma.vercel.app/assets/client/gym-timings-poster.jpg</image:loc>
+      <image:title>Official Batch Timings and Gym Rules Notice</image:title>
+      <image:caption>Morning, Evening and Kids Batch Hours</image:caption>
+    </image:image>
+  </url>
+</urlset>
